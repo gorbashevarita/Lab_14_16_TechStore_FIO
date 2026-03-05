@@ -3,10 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    padding-top: 70px;
+}
 .navigation {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.price {
+    display: flex;
+}
+.old-price {
+    margin-right: 10px;
+}
+.popular-products-card {
+    display: flex;
+}
+.advantages-cards {
+    display: flex;
 }
