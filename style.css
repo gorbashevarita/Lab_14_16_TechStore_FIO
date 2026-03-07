@@ -30,6 +30,9 @@
   border: none;
   margin: 0 10px;
 }
+.navbar-nav {
+  padding-bottom: 10px;
+}
 /*--------------------------------------------------*/
 .main {
   display: flex;
@@ -160,15 +163,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
+/*Каталог*/
 .catalog {
   margin: 20px;
 }
@@ -184,3 +179,94 @@
   background: linear-gradient(#7b4fdb,#4646c9);
 }
 
+
+
+
+/*О нас*/
+.main-about {
+  margin: 20px;
+  margin-bottom: 40px;
+}
+.main-about .title {
+  color: black;
+}
+
+
+
+.about {
+  background-color: rgb(216, 233, 247);
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card-about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card-about .card-title {
+  font-size: 60px;
+  color: #48c2ff;
+   font-weight: bold;
+}
+
+
+.team {
+  margin: 20px;
+}
+.team h2 {
+  margin:40px 0 20px;
+  text-align: center;
+}
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.team-cards .card {
+  background-color: rgb(216, 233, 247);
+  text-align: center;
+}
+.team-cards .post {
+  color: #18acf7;
+  font-weight: bold;
+}
+.team-cards .card-img-top {
+  padding: 10px 70px 0 70px;
+  object-position: center;
+}
+
+
+.choose-us {
+  background-color: rgb(216, 233, 247);
+  margin: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.choose-us h2 {
+  margin: 40px;
+  text-align: center;
+}
+.choose-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.choose-cards .card {
+  text-align: center;
+}
+.choose-cards .card-title {
+  margin-bottom: 10px;
+}
+.choose-cards .card-img-top {
+  padding: 10px 70px 0 70px;
+  object-position: center;
+}
