@@ -145,10 +145,10 @@
   color: white;
 }
 .badge-blue {
-  background-color: rgb(2, 213, 255);
+  background-color: rgb(2, 230, 255);
 }
 .badge-red {
-  background-color: rgb(255, 79, 79);
+  background-color: rgb(255, 3, 3);
 }
 .view-products {
   width: 300px;
@@ -182,13 +182,14 @@
 
 /*Каталог*/
 .catalog {
-  margin: 20px;
+  margin: 20px auto;
 }
+
 .catalog .catalog-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  justify-items: center; 
 }
 .catalog-cards .card-img-top {
   padding: 10px 70px 10px 70px;
