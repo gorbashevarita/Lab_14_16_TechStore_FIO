@@ -270,3 +270,43 @@
   padding: 10px 70px 0 70px;
   object-position: center;
 }
+
+
+
+/*footer*/
+footer {
+  background-color: rgb(29, 36, 47);
+  margin-top: 40px;
+  color: white;
+  padding: 40px;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.footer p {
+  color: rgb(164, 163, 163);
+}
+.footer h3 {
+  margin-bottom: 20px;
+}
+.but {
+  background-color: rgb(74, 76, 81);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.end {
+  color: rgb(164, 163, 163);
+  text-align: center;
+  margin-top: 20px;
+}
+.footer-divider {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ccc, transparent); 
+  margin: 30px 0; 
+}
+
