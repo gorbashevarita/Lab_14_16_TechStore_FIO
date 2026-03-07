@@ -30,11 +30,7 @@
   border: none;
   margin: 0 10px;
 }
-
-
-
-
-
+/*--------------------------------------------------*/
 .main {
   display: flex;
   flex-direction: column;
@@ -46,7 +42,7 @@
 }
 .title {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
 }
 .subtitle {
   color: white;
@@ -145,12 +141,7 @@
   border: 1px solid rgb(0, 162, 255);
   margin: 0 auto;
 }
-
-
-
-
-
-
+/*--------------------------------------------------*/
 .advantages h2 {
     font-size: 30px;
     text-align: center;
@@ -166,4 +157,30 @@
   padding: 10px 70px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+.catalog {
+  margin: 20px;
+}
+.catalog .catalog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.catalog-cards .card-img-top {
+  padding: 10px 70px 10px 70px;
+  object-position: center;
+  background: linear-gradient(#7b4fdb,#4646c9);
+}
 
